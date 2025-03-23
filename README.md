@@ -1,4 +1,14 @@
 # Dark-web-Osint-
+⚠️ Legal Notice
+This software must only be used for:
+
+Educational purposes
+
+Authorized audits
+
+Valid security research
+
+Misuse is the sole responsibility of the user.
 
 📥 Prerequisites
 
@@ -52,3 +62,4 @@ PATH
 
 🚀 Basic Execution
 python darkintellect.py http://example.onion  
+python darkintellect.py http://example.onion --full -o html -v
