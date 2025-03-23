@@ -26,4 +26,6 @@ Automated forensic analysis
 Interactive report generation
 
 📦 Quick Installation
-python darkweb.py http://ejemplo.onion --full
+git clone https://github.com/mrrobot588/Dark-web-Osint-.git
+cd Dark-web-Osint
+pip install -r requirements.txt
