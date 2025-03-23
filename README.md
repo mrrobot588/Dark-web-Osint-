@@ -10,3 +10,13 @@ RAM: Minimum 4GB (8GB recommended)
 
 Disk Space: 2GB fre
 
+🛠 Step-by-Step Installation
+git clone https://github.com/mrrobot588/Dark-web-Osint-.git
+cd Dark-web-Osint-
+
+
+Create a virtual environment
+
+python -m venv .venv  
+source .venv/bin/activate  # Linux/macOS  
+.\.venv\Scripts\activate  # Windows  
