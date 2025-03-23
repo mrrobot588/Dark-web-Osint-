@@ -10,56 +10,20 @@ Valid security research
 
 Misuse is the sole responsibility of the user.
 
-📥 Prerequisites
-
-Operating System: Preferably Linux (Ubuntu/Debian), macOS, or Windows 10/11
-
-Python: 3.9 or higher
-
-RAM: Minimum 4GB (8GB recommended)
-
-Disk Space: 2GB fre
-
-🛠 Step-by-Step Installation
-git clone https://github.com/mrrobot588/Dark-web-Osint-.git
-cd Dark-web-Osint-
+DarkWeb OSINT Tool 🔍
 
 
-Create a virtual environment
 
-python -m venv .venv  
-source .venv/bin/activate  # Linux/macOS  
-.\.venv\Scripts\activate  # Windows  
+Advanced tool for OSINT investigation on the dark web (.onion).
 
-Install dependencies
+🚀 Key Features
+Comprehensive scanning of .onion services
 
-pip install -r requirements.txt
+Integrated malware detection
 
-Install Tor
+Automated forensic analysis
 
-Linux (Debian/Ubuntu)
+Interactive report generation
 
-sudo apt-get update && sudo apt-get install tor  
-
-Configure Tor
-Edit /etc/tor/torrc or the Tor configuration file:
-ControlPort 9051
-CookieAuthentication 1
-
-Restart the service:
-sudo systemctl restart tor
-
-
-Install Geckodriver (for Selenium)
-
-Linux/macOS:
-wget https://github.com/mozilla/geckodriver/releases/download/v0.32.0/geckodriver-v0.32.0-linux64.tar.gz  
-tar -xvzf geckodriver*  
-chmod +x geckodriver  
-sudo mv geckodriver /usr/local/bin/  
-
-PATH
-
-🚀 Basic Execution
-python darkintellect.py http://example.onion  
-python darkintellect.py http://example.onion --full -o html -v
+📦 Quick Installation
+python darkweb.py http://ejemplo.onion --full
