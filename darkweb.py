@@ -1,28 +1,7 @@
-import pyfiglet
-import time
-import os
-
-def mostrar_banner():
-    gato_enfadado = """
-       /\_/\  
-      ( o.o )  
-      > ^_^ <
-    """
-    
-    while True:
-        os.system("cls" if os.name == "nt" else "clear")  # Limpiar pantalla
-        banner_text = pyfiglet.figlet_format("MADE BY YSL & WHOAMI")
-        print(gato_enfadado)
-        print(banner_text)
-        time.sleep(2)
-        
-        os.system("cls" if os.name == "nt" else "clear")  # Limpiar pantalla
-        print(gato_enfadado)
-        time.sleep(2)
-
-if __name__ == "__main__":
-    mostrar_banner()
-
+"""
+DarkIntellect v3.1 - API-Free Dark Web OSINT Suite
+Copyright (c) 2024 [whoami & ysl] - MIT License
+"""
 
 import os
 import re
