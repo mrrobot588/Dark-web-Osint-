@@ -15,6 +15,8 @@ DarkWeb OSINT Tool 🔍
 
 
 Advanced tool for OSINT investigation on the dark web (.onion).
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 🚀 Key Features
 Comprehensive scanning of .onion services
