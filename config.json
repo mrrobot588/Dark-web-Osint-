@@ -1,0 +1,12 @@
+{
+    "tor_proxy": "socks5h://127.0.0.1:9050",
+    "user_agents": {
+        "desktop": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64)..."
+        ]
+    },
+    "scan_options": {
+        "timeout": 45,
+        "max_depth": 3
+    }
+}
