@@ -245,9 +245,6 @@ class AdvancedScanner:
         
         return c2_indicators
 
-    # Resto de métodos se mantienen similares pero sin llamadas a APIs
-    # ... (los mismos métodos de análisis anteriores pero usando las nuevas funciones locales)
-
 async def main():
     parser = argparse.ArgumentParser(description='DarkIntellect - API-Free Dark Web OSINT')
     parser.add_argument('url', help='.onion URL to investigate')
