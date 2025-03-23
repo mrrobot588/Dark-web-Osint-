@@ -1,6 +1,6 @@
 """
 DarkIntellect v3.1 - API-Free Dark Web OSINT Suite
-Copyright (c) 2025 [whoami & ysl] - MIT License
+Copyright (c) 2024[whoami & ysl] - MIT License
 """
 
 import os
