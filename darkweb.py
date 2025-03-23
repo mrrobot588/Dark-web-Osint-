@@ -246,7 +246,7 @@ class AdvancedScanner:
         return c2_indicators
 
 async def main():
-    parser = argparse.ArgumentParser(description='DarkIntellect - API-Free Dark Web OSINT')
+    parser = 'argparse'.ArgumentParser(description='DarkIntellect - API-Free Dark Web OSINT')
     parser.add_argument('url', help='.onion URL to investigate')
     parser.add_argument('-o', '--output', help='Output format (json/html)', default='json')
     args = parser.parse_args()
